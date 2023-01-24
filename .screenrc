@@ -1,0 +1,6 @@
+bindkey "^P" prev
+bindkey "^N" next
+bindkey "^O" focus
+caption always "%{= kw}%-w%{= gW}%n %t%{-}%+w %-= - %Y-%m-%d %C:%s"
+startup_message off
+defscrollback 99999
